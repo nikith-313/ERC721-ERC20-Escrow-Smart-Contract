@@ -21,10 +21,11 @@ If anything goes wrong, either party can cancel and assets return to their owner
 ## State Machine
 
 Initial
-seller.depositNFT() → nftDeposited = true
-buyer.depositPayment() → paymentDeposited = true
-cancel() → refund assets
-seller.finalizeSwap() → atomic swap → completed forever
+
+- seller.depositNFT() → nftDeposited = true
+- buyer.depositPayment() → paymentDeposited = true
+- cancel() → refund assets
+- seller.finalizeSwap() → atomic swap → completed forever
 
 ## Contract Interfaces
 
